@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.loginContent {
+  display: flex;
+  height: 600px;
+  width: 900px;
+}
+
+.boxOne {
+  border: 1px solid red;
+  width: 50%;
+  padding: 10px;
+}
+
+.headerOne {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerOne select {
+  height: 40px;
+  width: 60px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.contentBoxOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleOne {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.titleOne h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.contentForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentForm input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.contentForm .inputOne::placeholder {
+  text-align: center;
+}
+
+.btnLogIn {
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  border: transparent;
+  background-color: black;
+}
+
+.inputTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.boxTwo {
+  width: 50%;
+  border: 1px solid blue;
+  padding: 10px;
+}
